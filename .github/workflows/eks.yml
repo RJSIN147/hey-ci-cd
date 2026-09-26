@@ -25,7 +25,7 @@ on:
 
 env:
   AWS_REGION: us-east-1
-  DOCKER_IMAGE: nensiravaliya28/hey-cicd
+  DOCKER_IMAGE: rjsins/python-webapp
 
 
 jobs:
