@@ -1,4 +1,10 @@
 apiVersion: apps/v1
+Run docker/login-action@v3
+Logging into docker.io...
+(node:2016) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Error: Error response from daemon: Get "https://registry-1.docker.io/v2/": unknown: malformed HTTP Authorization header
+
 kind: Deployment
 metadata:
   name: session17-python
